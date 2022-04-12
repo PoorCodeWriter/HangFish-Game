@@ -83,11 +83,11 @@ while turns > 0:
     guesses += guess
     if guess not in hangmanword:
         turns -= 1
-        print("Hangman is closer to death")
+        print("HangFish is closer to death")
         print("Wrong")
         print("You have", + turns, 'more guesses')
     if turns == 0:
-        print("You killed hangman")
+        print("You killed HangFish")
         print("\033[1;31;40mYou Lose\033[1;37;40m\n")
     if turns == 7:
         hang1()
